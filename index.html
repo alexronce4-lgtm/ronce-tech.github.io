@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Ronce – Software & AI Portfolio</title>
+  <meta name="description" content="Portfolio of Alex Ronce – Computer Science student, software engineer, and AI developer based in Los Angeles." />
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<header class="nav-header">
+  <div class="container nav-container">
+    <div class="nav-logo">AR</div>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <h1>Hello, I'm <span class="gradient">Alex Ronce</span>.</h1>
+      <p class="hero-subtitle">
+        Software Engineer · AI Developer · Computer Science Student  
+        <br><br>
+        I build intelligent systems using C++, Python, Java, and machine learning.  
+        With a strong engineering mindset from real-world HVAC work in France  
+        and a rigorous CS curriculum in Los Angeles, I combine hands-on skills  
+        with modern software development.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View my projects</a>
+        <a href="#contact" class="btn secondary">Get in touch</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="section-title">Highlighted Projects</h2>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <h3>CancerCare AI</h3>
+        <p>An AI-powered educational assistant designed to help patients understand medical information clearly and safely. Features explainability tools, multilingual support, and modern ML techniques.</p>
+        <div class="tags">
+          <span>Python</span><span>Machine Learning</span><span>NLP</span>
+        </div>
+        <a class="project-link" href="https://github.com/ronce-tech/CancerCareAI" target="_blank">View GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Interactive Calculus Tutor</h3>
+        <p>A visual learning tool for calculus students, with animated graphs, limits, derivatives, and integrals explained interactively using p5.js.</p>
+        <div class="tags">
+          <span>JavaScript</span><span>p5.js</span><span>Math Visualization</span>
+        </div>
+        <a class="project-link" href="#" target="_blank">View GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <h3>C++ Portfolio Manager</h3>
+        <p>C++ command-line investment tool using dynamic memory, custom data structures, and sorting algorithms to track and analyze stock positions.</p>
+        <div class="tags">
+          <span>C++</span><span>Algorithms</span><span>Data Structures</span>
+        </div>
+        <a class="project-link" href="#" target="_blank">View GitHub →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section alt">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Programming</h3>
+        <ul>
+          <li>C++, Java, Python</li>
+          <li>Assembly (HLA)</li>
+          <li>Full OOP</li>
+          <li>Algorithms & Data Structures</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>AI & Data</h3>
+        <ul>
+          <li>Machine Learning fundamentals</li>
+          <li>Neural networks basics</li>
+          <li>Data cleaning & analysis</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Engineering</h3>
+        <ul>
+          <li>HVAC Systems</li>
+          <li>Diagnostics</li>
+          <li>Problem solving</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Teamwork</li>
+          <li>Discipline (MMA/Wrestling)</li>
+          <li>Leadership</li>
+          <li>Bilingual: French & English</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <p class="about-text">
+      I’m a French international student in Los Angeles studying Computer Science  
+      with strong foundations in algorithms, low-level programming, and modern software development.  
+      <br><br>
+      Before CS, I worked hands-on in HVAC engineering, which gave me real-world troubleshooting ability,  
+      attention to detail, and discipline — qualities I now bring to software engineering and AI projects.  
+      <br><br>
+      My goals include working in AI, aerospace, and building systems that have real impact.
+    </p>
+  </div>
+</section>
+
+<section id="contact" class="section alt">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <p class="contact-text">
+      I'm available for internships, research opportunities, and software projects.
+    </p>
+
+    <ul class="contact-list">
+      <li><strong>Email:</strong> <a href="mailto:alex@example.com">alex@example.com</a></li>
+      <li><strong>GitHub:</strong> <a href="https://github.com/ronce-tech" target="_blank">github.com/ronce-tech</a></li>
+      <li><strong>LinkedIn:</strong> <a href="#" target="_blank">linkedin.com/in/alex-ronce</a></li>
+    </ul>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Alex Ronce · Portfolio</p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
