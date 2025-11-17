@@ -1,0 +1,220 @@
+/* ---------- GLOBAL STYLES ---------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0b0c10;
+  color: #f5f7fa;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  color: #93c5fd;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ---------- NAVBAR ---------- */
+.nav-header {
+  width: 100%;
+  padding: 1.2rem 0;
+  background: rgba(15, 16, 22, 0.75);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #2563eb, #7c3aed, #ec4899);
+  color: white;
+}
+
+nav a {
+  margin-left: 1rem;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+nav a:hover {
+  opacity: 1;
+}
+
+/* ---------- HERO ---------- */
+.hero {
+  padding: 6rem 0 4rem;
+  text-align: center;
+}
+
+.hero-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.gradient {
+  background: linear-gradient(135deg, #60a5fa, #a78bfa, #f472b6, #fb923c);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hero-subtitle {
+  font-size: 1.15rem;
+  max-width: 700px;
+  margin: 1.4rem auto 2rem auto;
+  opacity: 0.85;
+}
+
+.hero-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Buttons */
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.primary {
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: white;
+}
+.primary:hover {
+  opacity: 0.9;
+}
+
+.secondary {
+  border: 1px solid #7c3aed;
+}
+.secondary:hover {
+  border-color: white;
+}
+
+/* ---------- SECTIONS ---------- */
+.section {
+  padding: 5rem 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* ---------- PROJECTS ---------- */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 1.7rem;
+}
+
+.project-card {
+  background: #111218;
+  border: 1px solid #1f2937;
+  padding: 1.5rem;
+  border-radius: 12px;
+  transition: 0.2s ease;
+}
+.project-card:hover {
+  transform: translateY(-3px);
+  border-color: #4f46e5;
+}
+
+.tags {
+  margin-top: 0.9rem;
+}
+.tags span {
+  background: #1e293b;
+  padding: 0.3rem 0.6rem;
+  margin-right: 0.4rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+}
+
+/* ---------- SKILLS ---------- */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.skill-card {
+  background: #111218;
+  border: 1px solid #1f2937;
+  padding: 1.4rem;
+  border-radius: 12px;
+}
+
+.skill-card h3 {
+  margin-bottom: 0.7rem;
+  font-size: 1.1rem;
+}
+
+.skill-card li {
+  opacity: 0.85;
+  margin-bottom: 0.4rem;
+}
+
+/* ---------- ABOUT ---------- */
+.about-text {
+  max-width: 780px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  opacity: 0.9;
+  line-height: 1.7;
+}
+
+/* ---------- CONTACT ---------- */
+.contact-list {
+  list-style: none;
+  text-align: center;
+  margin-top: 1.2rem;
+}
+.contact-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* ---------- FOOTER ---------- */
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
